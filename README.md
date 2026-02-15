@@ -1,6 +1,14 @@
-# Azure Data Factory (ADF) Demo Repository
+# Azure Data Factory (ADF) Data Engineering Project
 
-This repository contains Azure Data Factory (ADF) resources including pipelines, datasets, linked services, and triggers. It serves as a demonstration and learning resource for ADF components and data engineering workflows.
+This repository serves as a comprehensive **Azure Data Factory (ADF)** solution demonstrating enterprise-grade data engineering patterns. It showcases end-to-end data pipelines, complex transformations using Mapping Data Flows, and robust orchestration strategies.
+
+The project implements real-world scenarios including:
+- **Data Ingestion**: Automated data movement from various sources (e.g., Blob Storage) using Copy Activities.
+- **Data Transformation**: Advanced logic using **Mapping Data Flows** to clean, filter, aggregate, and split data streams (e.g., processing transaction logs by payment method).
+- **Control Flow**: Orchestration of dependent tasks, error handling, and pipeline chaining (e.g., `PipelineManager` executing child pipelines).
+- **Maintenance**: Automated cleanup tasks and file management.
+
+This project is designed for Data Engineers to explore best practices in ETL/ELT workflows within the Azure ecosystem.
 
 ## 📂 Project Structure
 
