@@ -1,4 +1,4 @@
-# Azure Data Factory (ADF) Demo Repository
+# Azure Data Factory (ADF) Repository
 
 This repository contains Azure Data Factory (ADF) resources including pipelines, datasets, linked services, and triggers. It serves as a demonstration and learning resource for ADF components and data engineering workflows.
 
